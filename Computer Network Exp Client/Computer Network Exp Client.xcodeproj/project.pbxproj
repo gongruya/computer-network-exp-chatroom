@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44A604CF19443EC600B1EB92 /* NetFS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A604CD19443EC600B1EB92 /* NetFS.framework */; };
+		44A604D019443EC600B1EB92 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A604CE19443EC600B1EB92 /* Security.framework */; };
+		44A604D519443F4000B1EB92 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A604D319443F4000B1EB92 /* GCDAsyncSocket.m */; };
+		44A604D619443F4000B1EB92 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A604D419443F4000B1EB92 /* GCDAsyncUdpSocket.m */; };
+		44CBEC6E19443DE300912225 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CBEC6D19443DE300912225 /* Cocoa.framework */; };
+		44CBEC7819443DE300912225 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44CBEC7619443DE300912225 /* InfoPlist.strings */; };
+		44CBEC7A19443DE300912225 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CBEC7919443DE300912225 /* main.m */; };
+		44CBEC7E19443DE300912225 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 44CBEC7C19443DE300912225 /* Credits.rtf */; };
+		44CBEC8119443DE300912225 /* gryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CBEC8019443DE300912225 /* gryAppDelegate.m */; };
+		44CBEC8419443DE300912225 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44CBEC8219443DE300912225 /* MainMenu.xib */; };
+		44CBEC8619443DE300912225 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44CBEC8519443DE300912225 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44A604CD19443EC600B1EB92 /* NetFS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetFS.framework; path = System/Library/Frameworks/NetFS.framework; sourceTree = SDKROOT; };
+		44A604CE19443EC600B1EB92 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		44A604D319443F4000B1EB92 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		44A604D419443F4000B1EB92 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		44CBEC6A19443DE300912225 /* Computer Network Exp Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Computer Network Exp Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CBEC6D19443DE300912225 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		44CBEC7019443DE300912225 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		44CBEC7119443DE300912225 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		44CBEC7219443DE300912225 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		44CBEC7519443DE300912225 /* Computer Network Exp Client-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Computer Network Exp Client-Info.plist"; sourceTree = "<group>"; };
+		44CBEC7719443DE300912225 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44CBEC7919443DE300912225 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44CBEC7B19443DE300912225 /* Computer Network Exp Client-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Computer Network Exp Client-Prefix.pch"; sourceTree = "<group>"; };
+		44CBEC7D19443DE300912225 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		44CBEC7F19443DE300912225 /* gryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gryAppDelegate.h; sourceTree = "<group>"; };
+		44CBEC8019443DE300912225 /* gryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gryAppDelegate.m; sourceTree = "<group>"; };
+		44CBEC8319443DE300912225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		44CBEC8519443DE300912225 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		44CBEC8C19443DE300912225 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		44CBECA119443E0E00912225 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		44CBECA319443E0E00912225 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44CBEC6719443DE300912225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A604CF19443EC600B1EB92 /* NetFS.framework in Frameworks */,
+				44A604D019443EC600B1EB92 /* Security.framework in Frameworks */,
+				44CBEC6E19443DE300912225 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44CBEC6119443DE300912225 = {
+			isa = PBXGroup;
+			children = (
+				44CBEC7319443DE300912225 /* Computer Network Exp Client */,
+				44CBEC6C19443DE300912225 /* Frameworks */,
+				44CBEC6B19443DE300912225 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44CBEC6B19443DE300912225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44CBEC6A19443DE300912225 /* Computer Network Exp Client.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44CBEC6C19443DE300912225 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44A604CD19443EC600B1EB92 /* NetFS.framework */,
+				44A604CE19443EC600B1EB92 /* Security.framework */,
+				44CBEC6D19443DE300912225 /* Cocoa.framework */,
+				44CBEC8C19443DE300912225 /* XCTest.framework */,
+				44CBEC6F19443DE300912225 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44CBEC6F19443DE300912225 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44CBEC7019443DE300912225 /* AppKit.framework */,
+				44CBEC7119443DE300912225 /* CoreData.framework */,
+				44CBEC7219443DE300912225 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		44CBEC7319443DE300912225 /* Computer Network Exp Client */ = {
+			isa = PBXGroup;
+			children = (
+				44A604D319443F4000B1EB92 /* GCDAsyncSocket.m */,
+				44A604D419443F4000B1EB92 /* GCDAsyncUdpSocket.m */,
+				44CBECA119443E0E00912225 /* GCDAsyncSocket.h */,
+				44CBECA319443E0E00912225 /* GCDAsyncUdpSocket.h */,
+				44CBEC7F19443DE300912225 /* gryAppDelegate.h */,
+				44CBEC8019443DE300912225 /* gryAppDelegate.m */,
+				44CBEC8219443DE300912225 /* MainMenu.xib */,
+				44CBEC8519443DE300912225 /* Images.xcassets */,
+				44CBEC7419443DE300912225 /* Supporting Files */,
+			);
+			path = "Computer Network Exp Client";
+			sourceTree = "<group>";
+		};
+		44CBEC7419443DE300912225 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44CBEC7519443DE300912225 /* Computer Network Exp Client-Info.plist */,
+				44CBEC7619443DE300912225 /* InfoPlist.strings */,
+				44CBEC7919443DE300912225 /* main.m */,
+				44CBEC7B19443DE300912225 /* Computer Network Exp Client-Prefix.pch */,
+				44CBEC7C19443DE300912225 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44CBEC6919443DE300912225 /* Computer Network Exp Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CBEC9B19443DE300912225 /* Build configuration list for PBXNativeTarget "Computer Network Exp Client" */;
+			buildPhases = (
+				44CBEC6619443DE300912225 /* Sources */,
+				44CBEC6719443DE300912225 /* Frameworks */,
+				44CBEC6819443DE300912225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Computer Network Exp Client";
+			productName = "Computer Network Exp Client";
+			productReference = 44CBEC6A19443DE300912225 /* Computer Network Exp Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44CBEC6219443DE300912225 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = gry;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Gong Ruya";
+			};
+			buildConfigurationList = 44CBEC6519443DE300912225 /* Build configuration list for PBXProject "Computer Network Exp Client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44CBEC6119443DE300912225;
+			productRefGroup = 44CBEC6B19443DE300912225 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44CBEC6919443DE300912225 /* Computer Network Exp Client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44CBEC6819443DE300912225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CBEC7819443DE300912225 /* InfoPlist.strings in Resources */,
+				44CBEC8619443DE300912225 /* Images.xcassets in Resources */,
+				44CBEC7E19443DE300912225 /* Credits.rtf in Resources */,
+				44CBEC8419443DE300912225 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44CBEC6619443DE300912225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A604D619443F4000B1EB92 /* GCDAsyncUdpSocket.m in Sources */,
+				44A604D519443F4000B1EB92 /* GCDAsyncSocket.m in Sources */,
+				44CBEC7A19443DE300912225 /* main.m in Sources */,
+				44CBEC8119443DE300912225 /* gryAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44CBEC7619443DE300912225 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CBEC7719443DE300912225 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		44CBEC7C19443DE300912225 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CBEC7D19443DE300912225 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		44CBEC8219443DE300912225 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CBEC8319443DE300912225 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44CBEC9919443DE300912225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		44CBEC9A19443DE300912225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		44CBEC9C19443DE300912225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Computer Network Exp Client/Computer Network Exp Client-Prefix.pch";
+				INFOPLIST_FILE = "Computer Network Exp Client/Computer Network Exp Client-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		44CBEC9D19443DE300912225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Computer Network Exp Client/Computer Network Exp Client-Prefix.pch";
+				INFOPLIST_FILE = "Computer Network Exp Client/Computer Network Exp Client-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44CBEC6519443DE300912225 /* Build configuration list for PBXProject "Computer Network Exp Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CBEC9919443DE300912225 /* Debug */,
+				44CBEC9A19443DE300912225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44CBEC9B19443DE300912225 /* Build configuration list for PBXNativeTarget "Computer Network Exp Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CBEC9C19443DE300912225 /* Debug */,
+				44CBEC9D19443DE300912225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44CBEC6219443DE300912225 /* Project object */;
+}

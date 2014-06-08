@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44CBEC1C19441D6A00912225 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CBEC1B19441D6A00912225 /* Cocoa.framework */; };
+		44CBEC2619441D6A00912225 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44CBEC2419441D6A00912225 /* InfoPlist.strings */; };
+		44CBEC2819441D6A00912225 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CBEC2719441D6A00912225 /* main.m */; };
+		44CBEC2C19441D6A00912225 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 44CBEC2A19441D6A00912225 /* Credits.rtf */; };
+		44CBEC2F19441D6A00912225 /* gryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CBEC2E19441D6A00912225 /* gryAppDelegate.m */; };
+		44CBEC3219441D6A00912225 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44CBEC3019441D6A00912225 /* MainMenu.xib */; };
+		44CBEC3419441D6A00912225 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44CBEC3319441D6A00912225 /* Images.xcassets */; };
+		44CBEC5B1944261E00912225 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CBEC591944261E00912225 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		44CBEC5C1944261E00912225 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CBEC5A1944261E00912225 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		44CBEC5E194430ED00912225 /* NetFS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CBEC5D194430ED00912225 /* NetFS.framework */; };
+		44CBEC60194430F900912225 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CBEC5F194430F900912225 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44CBEC1819441D6A00912225 /* Computer Network Exp Server.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Computer Network Exp Server.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CBEC1B19441D6A00912225 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		44CBEC1E19441D6A00912225 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		44CBEC1F19441D6A00912225 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		44CBEC2019441D6A00912225 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		44CBEC2319441D6A00912225 /* Computer Network Exp Server-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Computer Network Exp Server-Info.plist"; sourceTree = "<group>"; };
+		44CBEC2519441D6A00912225 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44CBEC2719441D6A00912225 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44CBEC2919441D6A00912225 /* Computer Network Exp Server-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Computer Network Exp Server-Prefix.pch"; sourceTree = "<group>"; };
+		44CBEC2B19441D6A00912225 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		44CBEC2D19441D6A00912225 /* gryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gryAppDelegate.h; sourceTree = "<group>"; };
+		44CBEC2E19441D6A00912225 /* gryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gryAppDelegate.m; sourceTree = "<group>"; };
+		44CBEC3119441D6A00912225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		44CBEC3319441D6A00912225 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		44CBEC3A19441D6A00912225 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		44CBEC4F19441DAD00912225 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		44CBEC5119441DAD00912225 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		44CBEC591944261E00912225 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		44CBEC5A1944261E00912225 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		44CBEC5D194430ED00912225 /* NetFS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetFS.framework; path = System/Library/Frameworks/NetFS.framework; sourceTree = SDKROOT; };
+		44CBEC5F194430F900912225 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44CBEC1519441D6A00912225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CBEC60194430F900912225 /* Security.framework in Frameworks */,
+				44CBEC5E194430ED00912225 /* NetFS.framework in Frameworks */,
+				44CBEC1C19441D6A00912225 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44CBEC0F19441D6A00912225 = {
+			isa = PBXGroup;
+			children = (
+				44CBEC2119441D6A00912225 /* Computer Network Exp Server */,
+				44CBEC1A19441D6A00912225 /* Frameworks */,
+				44CBEC1919441D6A00912225 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44CBEC1919441D6A00912225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44CBEC1819441D6A00912225 /* Computer Network Exp Server.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44CBEC1A19441D6A00912225 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44CBEC5F194430F900912225 /* Security.framework */,
+				44CBEC5D194430ED00912225 /* NetFS.framework */,
+				44CBEC1B19441D6A00912225 /* Cocoa.framework */,
+				44CBEC3A19441D6A00912225 /* XCTest.framework */,
+				44CBEC1D19441D6A00912225 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44CBEC1D19441D6A00912225 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44CBEC1E19441D6A00912225 /* AppKit.framework */,
+				44CBEC1F19441D6A00912225 /* CoreData.framework */,
+				44CBEC2019441D6A00912225 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		44CBEC2119441D6A00912225 /* Computer Network Exp Server */ = {
+			isa = PBXGroup;
+			children = (
+				44CBEC4F19441DAD00912225 /* GCDAsyncSocket.h */,
+				44CBEC5119441DAD00912225 /* GCDAsyncUdpSocket.h */,
+				44CBEC591944261E00912225 /* GCDAsyncSocket.m */,
+				44CBEC5A1944261E00912225 /* GCDAsyncUdpSocket.m */,
+				44CBEC2D19441D6A00912225 /* gryAppDelegate.h */,
+				44CBEC2E19441D6A00912225 /* gryAppDelegate.m */,
+				44CBEC3019441D6A00912225 /* MainMenu.xib */,
+				44CBEC3319441D6A00912225 /* Images.xcassets */,
+				44CBEC2219441D6A00912225 /* Supporting Files */,
+			);
+			path = "Computer Network Exp Server";
+			sourceTree = "<group>";
+		};
+		44CBEC2219441D6A00912225 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44CBEC2319441D6A00912225 /* Computer Network Exp Server-Info.plist */,
+				44CBEC2419441D6A00912225 /* InfoPlist.strings */,
+				44CBEC2719441D6A00912225 /* main.m */,
+				44CBEC2919441D6A00912225 /* Computer Network Exp Server-Prefix.pch */,
+				44CBEC2A19441D6A00912225 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44CBEC1719441D6A00912225 /* Computer Network Exp Server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CBEC4919441D6A00912225 /* Build configuration list for PBXNativeTarget "Computer Network Exp Server" */;
+			buildPhases = (
+				44CBEC1419441D6A00912225 /* Sources */,
+				44CBEC1519441D6A00912225 /* Frameworks */,
+				44CBEC1619441D6A00912225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Computer Network Exp Server";
+			productName = "Computer Network Exp Server";
+			productReference = 44CBEC1819441D6A00912225 /* Computer Network Exp Server.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44CBEC1019441D6A00912225 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = gry;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Gong Ruya";
+			};
+			buildConfigurationList = 44CBEC1319441D6A00912225 /* Build configuration list for PBXProject "Computer Network Exp Server" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44CBEC0F19441D6A00912225;
+			productRefGroup = 44CBEC1919441D6A00912225 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44CBEC1719441D6A00912225 /* Computer Network Exp Server */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44CBEC1619441D6A00912225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CBEC2619441D6A00912225 /* InfoPlist.strings in Resources */,
+				44CBEC3419441D6A00912225 /* Images.xcassets in Resources */,
+				44CBEC2C19441D6A00912225 /* Credits.rtf in Resources */,
+				44CBEC3219441D6A00912225 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44CBEC1419441D6A00912225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CBEC5C1944261E00912225 /* GCDAsyncUdpSocket.m in Sources */,
+				44CBEC5B1944261E00912225 /* GCDAsyncSocket.m in Sources */,
+				44CBEC2819441D6A00912225 /* main.m in Sources */,
+				44CBEC2F19441D6A00912225 /* gryAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44CBEC2419441D6A00912225 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CBEC2519441D6A00912225 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		44CBEC2A19441D6A00912225 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CBEC2B19441D6A00912225 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		44CBEC3019441D6A00912225 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CBEC3119441D6A00912225 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44CBEC4719441D6A00912225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		44CBEC4819441D6A00912225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		44CBEC4A19441D6A00912225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Computer Network Exp Server/Computer Network Exp Server-Prefix.pch";
+				INFOPLIST_FILE = "Computer Network Exp Server/Computer Network Exp Server-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		44CBEC4B19441D6A00912225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Computer Network Exp Server/Computer Network Exp Server-Prefix.pch";
+				INFOPLIST_FILE = "Computer Network Exp Server/Computer Network Exp Server-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44CBEC1319441D6A00912225 /* Build configuration list for PBXProject "Computer Network Exp Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CBEC4719441D6A00912225 /* Debug */,
+				44CBEC4819441D6A00912225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44CBEC4919441D6A00912225 /* Build configuration list for PBXNativeTarget "Computer Network Exp Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CBEC4A19441D6A00912225 /* Debug */,
+				44CBEC4B19441D6A00912225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44CBEC1019441D6A00912225 /* Project object */;
+}
