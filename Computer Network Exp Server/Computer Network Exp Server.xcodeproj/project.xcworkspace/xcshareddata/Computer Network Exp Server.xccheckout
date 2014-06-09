@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>64263B67-29D5-47EA-8BBE-5B7221379D55</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Computer Network Exp Server</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>55EF34E2-BAFD-4391-837F-ED5D78D834DD</key>
+		<string>ssh://github.com/gongruya/computer-network-exp-chatroom.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Computer Network Exp Server/Computer Network Exp Server.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>55EF34E2-BAFD-4391-837F-ED5D78D834DD</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/gongruya/computer-network-exp-chatroom.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>55EF34E2-BAFD-4391-837F-ED5D78D834DD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>55EF34E2-BAFD-4391-837F-ED5D78D834DD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>exp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
