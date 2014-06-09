@@ -73,5 +73,6 @@
     NSString *msg_to_send = [NSString stringWithFormat:@"<span style=\"font-size:14px\"><b>Server</b></span> says:<br /><span style=\"font-size:18px\">%@</span>", msg.stringValue];
     for (int i = 0; i < cli_num; ++i)
         [s[i] writeData:[msg_to_send dataUsingEncoding:NSUTF8StringEncoding] withTimeout:-1 tag:0];
+    [self addtext: msg_to_send];
 }
 @end
